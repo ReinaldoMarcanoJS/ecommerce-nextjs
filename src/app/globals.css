@@ -7,7 +7,7 @@
 }
 
 .bg {
-  background: rgb(99, 159, 179);
+  background: rgba(99, 159, 179, 0.69);
   background: linear-gradient(
     90deg,
     rgba(99, 159, 179, 0.6979166666666667) 0%,
@@ -23,7 +23,7 @@
   justify-content: start;
 }
 
-span {
+.span {
   width: 100%;
   display: grid;
   gap: 8px;
@@ -31,14 +31,9 @@ span {
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  padding-left: 20px;
+  padding: 10px 10px 10px 20px;
 }
 
-span:hover {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.8989583333333334) 0%,
-    rgba(255, 255, 255, 0.4836363636363636) 100%
-  );
+span:hover{
+  background: white;
 }

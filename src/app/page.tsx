@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className=" ">
       <Navbar/>
-      {/* <Dashboard/> */}
+      <Dashboard/>
     </main>
   );
 }
